@@ -107,6 +107,12 @@ h2 {
 .reservationimg {
     float: left;
     width: 50%;
+    padding-bottom: 5%;
+}
+.calendly-inline-widget {
+    float: left;
+    width: 40%;
+    height: 100%;
 }
 footer{
     text-align: start;
@@ -117,4 +123,5 @@ footer{
     width: 100vw;
     font-size: 3vw;
     color: #fff5d9;
+
 }
