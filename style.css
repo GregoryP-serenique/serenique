@@ -125,3 +125,12 @@ footer{
     color: #fff5d9;
 
 }
+@media (max-width:480px){
+.reservationimg{
+    width: 80%;
+}
+.calendly-inline-widget{
+    width: 50%;
+    float: left;
+}
+}
