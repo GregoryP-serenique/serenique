@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Praise&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+body{
+    background-color: #3a4c7e;
+}
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 5px 5px;
+}
+li, a, button{
+    font-family:"Libertinus Mono", monospace;
+    font-weight: 500px;
+    font-size: 1.5vw;
+    color: #fff5d9;
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo {
+    max-width:200px;
+    cursor: pointer;
+    margin-right: auto;
+}
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding:0px 20px ;
+}
+ 
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover  {
+    transition: all 0.3s ease 0s;
+    color: #e07715;
+} 
+button {
+    padding: 1% 0.5%;
+    background-color: #fff5d9;
+    color: #3a4c7e;
+    border: none; 
+    border-radius: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;;
+}
+button:hover {
+    background-color: #fff5d98a;
+    color: #3a4c7ebd;  
+}
+
+.container {
+    position: relative;
+    color: #fff5d9;
+    font-family: 'courgette',cursive;  
+    font-size: 8vw;
+}
+.text {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+.ethosimg {
+    float: left;
+    padding-right: 5%;
+    width: 50%;
+}
+.ethosmain {
+    font-family: 'courgette',cursive;
+    color: #fff5d9;
+    font-size: 4vw;  
+}
+p {
+    font-family: 'libertinus mono', monospace;
+    color: #fff5d9;
+    text-align: left;
+    font-size: 1.5vw;
+}
+
+h2 {
+    font-family: 'courgette',cursive;
+    font-size: 4vw;
+    color: #fff5d9;
+    text-align: left;
+    padding-top: 35%;
+}
+.p2 {
+    font-family: 'libertinus mono', monospace;
+    font-size: 1.5vw;
+    color: #fff5d9;
+    text-align: left;
+  padding-right: 50%;
+}
+.reservationimg {
+    float: left;
+    width: 50%;
+}
+footer{
+    text-align: start;
+    background-color: #3a4c7e;
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    width: 100vw;
+    font-size: 3vw;
+    color: #fff5d9;
+}
