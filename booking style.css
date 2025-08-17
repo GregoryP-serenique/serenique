@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Praise&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+body{
+    background-color : #3a4c7e;
+}
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 5px 5px;
+}
+li, a, button{
+    font-family: "nesreader";
+    font-weight: 500px;
+    font-size: 1.5vw;
+    color: #fff5d9;
+    text-decoration: none;
+} 
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo {
+    max-width: 200px;
+    cursor: pointer;
+    margin-right: auto;
+}
+.nav__links{
+    list-style: none;
+}
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover  {
+    transition: all 0.3s ease 0s;
+    color: #e07715;
+} 
+button {
+    padding: 1% 0.5%;
+    background-color: #fff5d9;
+    color: #3a4c7e;
+    border: none; 
+    border-radius: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;;
+}
+button:hover {
+    background-color: #fff5d98a;
+    color: #3a4c7ebd;  
+}
+@media (max-width:480px){
+.contact-inputs{
+    width: 10vw;
+}
+}
