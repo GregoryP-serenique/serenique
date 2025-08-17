@@ -110,7 +110,7 @@ h2 {
     padding-bottom: 5%;
 }
 .calendly-inline-widget {
-    float: left;
+    float: right;
     width: 40%;
     height: 100%;
 }
@@ -134,3 +134,4 @@ footer{
     float: left;
 }
 }
+
