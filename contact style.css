@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Praise&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libertinus+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
 body{
     background-color: #3a4c7e;
 }
@@ -11,7 +11,7 @@ body{
     padding: 5px 5px;
 }
 li, a, button{
-    font-family: "libertinus mono", monospace;
+    font-family: "newsreader";
     font-weight: 500px;
     font-size: 1.5vw;
     color: #fff5d9;
@@ -101,7 +101,7 @@ h1 {
     border-radius: 50px;
 }
 .contact-left textarea{
-    height: 300px;
+    height: 210px;
     padding-top: 15px;
     border-radius: 20px;
 }
@@ -121,16 +121,24 @@ footer{
     width: 100vw;
     font-size: 3vw;
     color: #fff5d9;
-}
 
-@media (max-width:402px){
+}
+b {
+    margin-bottom: 100px;
+}
+@media (max-width:480px){
 .contact-inputs{
-    width: 10vw;
+    width: 75vw;
 }
 .contact-right{
     display: none;
 }   
+
 }
+
+
+
+
 
 
 
